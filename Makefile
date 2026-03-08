@@ -5,3 +5,6 @@ all:
 	mv os-signed.8xu os.8xu
 	rompatch ti84plus.rom -4 os.hex
 	rm os.hex
+
+clean:
+	rm os.8xu
